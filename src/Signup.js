@@ -37,7 +37,7 @@ class Signup extends React.Component{
                 <input class="input-field2" type="password" id = "pass1" placeholder="CONFIRM PASSWORD     " minLength={8} required/>
             </div>
             
-            <div class="email">
+            <div class="email1">
                 <input class="input-field2" type="email" placeholder="EMAIL" required/>
             </div>
                
