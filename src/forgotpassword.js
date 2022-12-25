@@ -24,7 +24,7 @@ class Forgotpassword extends React.Component{
           <div class='s1'>Forgot Password</div>
           <div class='s2' ><p> Enter E-mail Address:</p> <br></br><p>Create Password:</p><br></br><p>Confirm Password:</p></div>
           <div class='s3'><p> V</p></div>
-          <div class='s4'><p>-LEARN</p></div>
+          <div class='s4'><p>-XPLORE</p></div>
 
           <div class="input4">
           <div class="input-container">

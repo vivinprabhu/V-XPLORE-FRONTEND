@@ -1,5 +1,5 @@
 .background1{
-    background-image: url('Firstpage.gif');
+    background-image: url('Firstpage1.gif');
     background-color: black;
     background-repeat: no-repeat;
     background-size: 1550px 790px;
@@ -9,7 +9,7 @@ h1{
 position: absolute;
 width: 752px;
 height: 226px;
-left: 280px;
+left: 240px;
 top: 55px;
 color: red;
 font-family: 'Inter';
@@ -23,7 +23,7 @@ h2{
     position: absolute;
 width: 752px;
 height: 226px;
-left: 500px;
+left: 490px;
 top: 45px;
 font-family: 'Inter';
 font-style: bold;
@@ -44,7 +44,7 @@ color: white;
     position: absolute;
     width: 100px;
     height: 40px;
-    left: 720px;
+    left: 730px;
     top: 370px;
 }
 
@@ -62,22 +62,11 @@ color: white;
     position: absolute;
     width: 200px;
     height: 50px;
-    left: 670px;
+    left: 680px;
     top: 600px;
 }
 
 .btn2:hover{
     opacity: 1;
     background-color: red;
-}
-
-.signup{
-    background-color: whitesmoke;
-    color: black;
-    padding: 20px 15px;
-    border: none;
-    cursor: pointer;
-    width: 200%;
-    opacity: 0.9;
-    border-radius: 15px 20px;
 }

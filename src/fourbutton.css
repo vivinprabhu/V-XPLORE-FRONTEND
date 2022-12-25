@@ -22,14 +22,14 @@
     top: -120px;
     left: -40px;
     color: red;
-    font-size: 250%;
+    font-size: 300%;
 }
 .headl{
     text-align: end;
     position: relative;
-    font-size: 200%;
-    top: -225px;
-    left: 125px;
+    font-size: 250%;
+    top: -248px;
+    left: 175px;
     color: rgb(255, 255, 255);
 }
 
@@ -39,10 +39,9 @@
     margin-top: 20px;
     margin-left: 18px;
 }
+
 .App1 {
-    width: 300px;
     background: white;
-    font-size: 40px;
     margin: 100px auto;
     padding: 10px;
     cursor: pointer;
@@ -54,12 +53,10 @@
 }
 .App1:hover {
     background: rgb(54, 54, 54);
-    transform: scale(2);
+    transform: scale(1.5);
     transition-duration: 0.5s;
 }
 
- 
-  
 .card1 {
     width: 130px;
     height: 130px;
@@ -91,24 +88,17 @@
 
 .card1 .info1 {
     position: relative;
-    z-index: 5;
-    color: white;
     opacity: 0;
     transform: translateY(30px);
     transition: 0.5s;
-    top: -2px;
+    top: 0px;
   }
 
 .btn11{
-    background-color: red(255, 255, 255);
-    color: rgb(0, 0, 0);
-    padding: 15px 0px;
     cursor: pointer;
-    border-radius: 15px 15px;
     position: relative;
-    width: 150px;
-    left: -9.5px;
-    top: 80px;
+    left: -3px;
+    top: 100px;
 }
 .subb1{
     top: 10px;
@@ -129,7 +119,7 @@
 }
 .App2:hover {
     background: rgb(54, 54, 54);
-    transform: scale(2);     
+    transform: scale(1.5);     
     transition-duration: 0.5s;
 }
  
@@ -174,14 +164,9 @@
   }
 
 .btn12{
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    padding: 15px 0px;
     cursor: pointer;
-    border-radius: 15px 15px;
     position: relative;
-    width: 150px;
-    left: -9.5px;
+    left: 0px;
     top: 80px;
 }
 .App3 {
@@ -199,7 +184,7 @@
 }
 .App3:hover {
     background: rgb(54, 54, 54);
-    transform: scale(2);     
+    transform: scale(1.5);     
     transition-duration: 0.5s;
 }
 
@@ -245,15 +230,9 @@
   }
 
 .btn13{
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    padding: 15px 0px;
     cursor: pointer;
-    border-radius: 15px 15px;
     position: relative;
-    width: 150px;
-    height: px;
-    left: -10.5px;
+    left: -10px;
     top: 80px;
 }
 .subb3{
@@ -275,13 +254,11 @@
 }
 .App4:hover {
         background: rgb(54, 54, 54);
-        transform: scale(2); 
+        transform: scale(1.5); 
         background-repeat: no-repeat;    
         transition-duration: 0.5s;
 }
 
- 
-  
 .card4 {
     width: 130px;
     height: 130px;
@@ -322,13 +299,8 @@
   }
 
 .btn14{
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    padding: 15px 0px;
     cursor: pointer;
-    border-radius: 15px 15px;
     position: relative;
-    width: 150px;
     left: -10px;
     top: 80px;
 }
@@ -356,3 +328,5 @@
     position: relative;
     left: -5px;
 }
+
+

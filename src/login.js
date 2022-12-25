@@ -31,9 +31,11 @@ class Login extends React.Component{
                         <Link to="/home"><input className='btn3' type='submit' value='Proceed'></input></Link>
                     </div>
 
-                    <div class="fp">
-                        <Link to="/forgotpassword"><p>Forgot Password</p></Link>
-                    </div>
+                    <Link to="/forgotpassword">
+                        <div class="fp">
+                            <p>Forgot password</p>
+                        </div>
+                    </Link>
                 
                     <div>
                         <h4>Don't have an account?</h4>

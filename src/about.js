@@ -21,7 +21,7 @@ return(
                 <div class="box50"> </div>
 
                 <div class="s50">V</div>
-                <div class="s51">-LEARN</div>
+                <div class="s51">-XPLORE</div>
 
                 <div class="head3">Behind the success</div>
 

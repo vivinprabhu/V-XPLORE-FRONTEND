@@ -22,7 +22,7 @@ import ques from './question.png' ;
 import video from './video-lecture.png' ;
 import placement from './promotion.png' ;
 
-import email from './gmail.png' ;
+import twitter from './twitter.png' ;
 import insta from './instagram.png' ;
 import git from './github.png' ;
 
@@ -33,7 +33,7 @@ function Home()
         <div class='logo'>
 
             <div class="h11">
-                <p>V-Learn</p>
+                <p>V-XPLORE</p>
             </div>
 
             <div id="log">
@@ -41,9 +41,9 @@ function Home()
             </div>
         <ul>
             <li><a href='#home'>Home</a></li>
-            <li><a href='#departments'>Departments</a></li>
-            <li><a href='#services'>Services</a></li>
             <li><a href='#upload'>Upload</a></li>
+            <li><a href='#services'>Services</a></li>
+            <li><a href='#departments'>Departments</a></li>
             <li><Link to="/Feedback"><a class="size">Feedback</a></Link></li>
             <li><a href='#contact'>Contact us</a></li>
         </ul>
@@ -53,13 +53,13 @@ function Home()
         <div id='home'>
             <div id='content'>
                 <div class="h12">
-                    <p>Our Story</p>
+                    <p>OUR MOTTO</p>
                 </div>
                 <div class="justify">
                <p>
-                    V-LEARN is a open community and a global platform for students for learning through online. As most of the online websites provide courses and contents with premium payments we providing a economy-free courses.<br></br><br></br>
-                    LEARNING IS A CONSTANT PROCESS-THAT NEVER ENDS <br></br><br></br>
-                    As a V-learn user and , as a VLEARN contributor you can both gain knowledge and share to help others to gain their knowledge.
+                    V-XPLORE is a open community and a global platform for students for learning through online. As most of the online websites provide courses and contents with premium payments we providing a economy-free courses.<br></br><br></br><br></br>
+                    As a V-XPLORE user and , as a V-XPLORE contributor you can both gain knowledge and share your knowledge to help others to gain their knowledge. <br></br> <br></br><br></br>
+                    As you grow , the society will also grow with you.
                     
                 </p>
                 </div>
@@ -68,6 +68,7 @@ function Home()
                     <a href="#services">More details</a>
                     <br></br>
                 </div>
+                    <br></br>
             </div>
             <div id="image">
                 <img class="imr"src={imge} alt="Imge" />
@@ -83,26 +84,27 @@ function Home()
             <p>
                 Help us to grow bigger by uploading study materials. <br></br>
                 People can upload their subject notes, question papers, reference books also video lectures.<br></br><br></br>
-
                 Upload Files Securely, Anonymous, Fast and Free!
             </p>
 
+            <Link to="/Upload">
             <div class="upload">
-                <Link to="/Upload"><button>Upload Here</button></Link>
+                <button>Upload Here</button>
             </div>
+            </Link>
 
             </div>
         </div>
 
-
         <div id="services">
             <div id="col">
+                <br></br>
                 <div class="h12">
                     <p>SERVICES</p>
                 </div>
-            <p>1. SUBJECT NOTES---Our notes are updated regularly. Dont miss to check this out.<br/>
-            2. QUESTION PAPERS---Not satisfied with your performance? Try answering to previous year question papers!<br/>
-            3. VIDEO LECTURES---We update dependencies to keep things fresh.<br/>
+            <p>1. SUBJECT NOTES---Our notes are updated regularly. Dont miss to check this out!<br/>
+            2. QUESTION PAPERS---Not satisfied? Try answering to previous year question papers!<br/>
+            3. VIDEO LECTURES---Can't understand by reading? No problem see our video lectures!<br/>
             4. PLACEMENT PREPARATION---You have to make your placements with love these days!</p>
 
             <div id="c1">
@@ -121,13 +123,15 @@ function Home()
                 <img class="ima4"src={placement} alt="STUDY"/>
                 <a>Placement Preparation</a>
             </div>
+            <p>_________________________________________________________________________________________________</p>
             </div>
         </div>
+
         <div id='departments'>
             <div class="h12">
                 <p>DEPARTMENTS</p>
             </div>
-                <p>We are providing the below listed departments study materials .<br></br>Make use of the materials. Keep Learning .  </p>
+                <p>Choose your department<br></br>Make your knowledge</p>
                 <div id="i1">
                 <Link to="/Four"><div class="card">
                     <img src={aids} alt="AIDS"/>
@@ -217,19 +221,62 @@ function Home()
                     </div>   
                 </div></Link>
                 </div>
+
+                <div class="underline"><p>________________</p></div>
         </div>
 
         <div id="contact">
-            <div class="h13">
-                <p>Contact us</p>
-            </div>
-            <div><a href="@"><img class="email" src={email} alt="email"/></a></div>
-            <div><a href="@"><img class="insta" src={insta} alt="insta"/></a></div>
-            <div><a href="@"><img class="git" src={git} alt="git"/></a></div>
+            <br></br> 
+            <div class="h18">
+                GET IN TOUCH
+                <div><br></br><a href="@"><img class="twitter" src={twitter} alt="twitter"/></a></div>
+                <div><a href="@"><img class="insta" src={insta} alt="insta"/></a></div>
+                <div><a href="@"><img class="git" src={git} alt="git"/></a></div>
 
-            <Link to="/about"><div class="mi"><p>More info</p></div></Link>
+                <div class="team">
+                    <p>TEAM: </p>
+                </div>
+
+                <div class="linkedin">
+                    <a href="https://www.linkedin.com/in/s-sainarendar-504351254">Sai Narendar</a><br></br>
+                    <a href="https://www.linkedin.com/in/sherylin-rajan-0661391b0">Sherylin M Rajan</a><br></br>
+                    <a href="https://www.linkedin.com/in/shreena-christopher-609962215">Shreena Christoper</a><br></br>
+                    <a href="https://www.linkedin.com/in/tanushri-a-d-581374250">Tanushri</a><br></br>
+                    <a href="https://www.linkedin.com/in/vishnu-m-849062257">Vishnu</a><br></br>
+                    <a href="https://www.linkedin.com/in/vivinprabhu">Vivinprabhu</a><br></br>
+                    
+                </div>
+
+                <div class="quries">
+                    <p>Quries :</p>
+                </div>
+
+                <Link to="/about"><div class="mi"><p>More info</p></div></Link>
+                <Link to="/about"><div class="faq"><p>FAQ</p></div></Link>
+                <Link to="/about"><div class="au"><p>About us</p></div></Link>
+                
+                <div class="stt">Special Thanks to:</div>
+                <div class="linkedin2">
+                <a href="https://www.linkedin.com/in/vaish-navi-78b5a9245/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BkYKXSopySbC4Wh54yi8iNA%3D%3D&original_referer=">Vaishnavi</a><br></br>
+                <a href="@">Sakthibala</a><br></br>
+                </div>
+
+
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+
+            </div>
         </div>
-</>
+                <div class="copyright">
+                    <p>COPYRIGHT ©️ All rights reserved</p>
+                </div>
+                                
+</>             
     );
 }
 

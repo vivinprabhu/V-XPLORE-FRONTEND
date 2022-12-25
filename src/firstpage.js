@@ -19,7 +19,7 @@ class Firstpage extends React.Component{
             <div>
                 <h1>V</h1>
     
-                <h2>-LEARN</h2>
+                <h2>-XPLORE</h2>
 
                 <Link to="/login"><input class='btn' type='submit' value='LOGIN'></input></Link>
 

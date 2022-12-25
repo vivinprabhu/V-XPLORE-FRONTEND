@@ -30,10 +30,11 @@ class Four extends React.Component{
             </div>
 
             <div className='headl'>
-                <p>- LEARN</p>
+                <p>-XPLORE</p>
             </div>
             
-            <Link to="/Nofile"><div class="App1">
+            <Link to="/Nofile">
+                <div class="App1">
                 <div class="card1"><img src={note} alt="note"/>
                     <div class="info1">
                         <div>
@@ -41,7 +42,8 @@ class Four extends React.Component{
                         </div>
                     </div>
                 </div>
-            </div></Link>
+            </div>
+            </Link>
 
             <Link to="/Nofile"><div className="App2">
                 <div class="card2"><img src={vvd} alt="vvd"/>
