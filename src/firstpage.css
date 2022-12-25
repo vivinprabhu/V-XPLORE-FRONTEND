@@ -1,0 +1,83 @@
+.background1{
+    background-image: url('Firstpage.gif');
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 1550px 790px;
+}
+
+h1{
+position: absolute;
+width: 752px;
+height: 226px;
+left: 280px;
+top: 55px;
+color: red;
+font-family: 'Inter';
+font-style: bold;
+font-weight: 400;
+font-size: 110px;
+line-height: 218px;
+}
+
+h2{
+    position: absolute;
+width: 752px;
+height: 226px;
+left: 500px;
+top: 45px;
+font-family: 'Inter';
+font-style: bold;
+font-weight: 400;
+font-size: 100px;
+line-height: 218px;
+
+color: white;
+}
+
+
+.btn{
+    background-color: white;
+    color: black;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 15px 15px;
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 720px;
+    top: 370px;
+}
+
+.btn:hover{
+    opacity: 1;
+    background-color: red;
+}
+
+.btn2{
+    background-color: white;
+    color: black;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 15px 15px;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 670px;
+    top: 600px;
+}
+
+.btn2:hover{
+    opacity: 1;
+    background-color: red;
+}
+
+.signup{
+    background-color: whitesmoke;
+    color: black;
+    padding: 20px 15px;
+    border: none;
+    cursor: pointer;
+    width: 200%;
+    opacity: 0.9;
+    border-radius: 15px 20px;
+}

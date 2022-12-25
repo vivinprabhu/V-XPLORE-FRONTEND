@@ -1,0 +1,80 @@
+.background5{
+    padding: 80px 0 90px 0;
+    background-image: url('imgg.jpg') ;
+    background-size: 1656px 780px;
+    background-repeat: no-repeat;
+}
+
+.Back{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 40%;
+    padding-top: 40px;
+    border-radius: 90px;
+    background-color: rgb(255, 255, 255);
+    left: 505px;
+}
+
+.heads{
+    position: fixed;
+    text-align: center;
+    left: 800px;
+}
+
+.ntext{
+    position: fixed;
+    text-align: center;
+    height: 54px;
+    width: 483px;
+    left: 560px;
+    top: 211px;
+    border-radius: 30px;
+}
+
+.etext{
+    position: fixed;
+    text-align: center;
+    height: 54px;
+    width: 483px;
+    left: 560px;
+    top: 311px;
+    border-radius: 30px;
+}
+
+.ftext{
+    position: fixed;
+    text-align: center;
+    text-size-adjust: 40px;
+    height: 104px;
+    width: 483px;
+    left: 560px;
+    top: 411px;
+    border-radius: 30px;
+}
+
+.submit{
+    background-color: rgb(78, 78, 78);
+    color: rgb(255, 255, 255);
+    padding: 10px 10px;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 30px;
+    position: fixed;
+    width: 120px;
+    height: 60px;
+    left: 750px;
+    top: 551px;
+    font-size: 150%;
+}
+
+.submit:hover{
+    color: black;
+}
+
+.h14{
+    position: absolute;
+    left: -40px;
+    color: black;
+}

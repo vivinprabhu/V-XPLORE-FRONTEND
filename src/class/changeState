@@ -1,0 +1,18 @@
+import React, { Project } from 'react'
+import './backstyle.css'
+
+export default class changeState extends Project{
+    state={ name:""}
+
+    change=(e)=>{this.setState({name:e.target.value})}
+    render(){
+        return(
+            <>
+            <div className='design'>
+            <h1 style={{color:"blue"}}> {this.state.name}</h1>
+            <input type="text" onChange={this.change}/>
+            <h1>{this.state.name}</h1>
+            </div>
+            );
+    }
+}

@@ -1,0 +1,122 @@
+.background2{
+    background-image: url('Login and signup img.jpeg');
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 800px 700px;
+}
+
+.back1{
+    position: absolute;
+    width: 600px;
+    height: 503px;
+    left: 710px;
+    top: 97px;
+    background-color: whitesmoke;
+    border-radius: 40px; 
+}
+
+h5{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    color: black;
+    position: absolute;
+    left: 220px;
+    top: -35px;
+}
+
+.fname{
+    position: absolute;
+    width: 400px;
+    height: 30px;
+    left: -20px;
+    top: 110px;
+}
+
+.lname{
+    position: absolute;
+    width: 400px;
+    height: 30px;
+    left: 230px;
+    top: 110px;
+}
+
+.password{
+        position: absolute;
+        width: 400px;
+        height: 30px;
+        left: -20px;
+        top: 180px;
+    }
+
+.cpassword{
+        position: absolute;
+        width: 400px;
+        height: 30px;
+        left: 230px;
+        top: 180px;
+    }
+
+.email{
+        position: absolute;
+        width: 400px;
+        height: 30px;
+        left: -20px;
+        top: 250px;
+    }
+
+.input-field2{
+    width: 50%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px 20px;
+}
+
+
+.btn5{
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 10px 10px;
+    position: absolute;
+    width: 90px;
+    height: 40px;
+    left: 250px;
+    top: 325px;
+}
+
+.btn5:hover{
+    opacity: 1;
+    color: red;
+}
+
+
+h6{
+    position: absolute;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100%;
+    color: black;
+    left: 180px;
+    top: 370px;
+}
+
+.btn6{
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 10px 10px;
+    position: absolute;
+    width: 90px;
+    height: 40px;
+    left: 255px;
+    top: 450px;
+}
+
+.btn6:hover{
+    opacity: 1;
+    color: red;
+}

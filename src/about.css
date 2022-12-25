@@ -1,0 +1,94 @@
+.imr50{
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 20%;
+  left: 26%;
+}
+
+.head50{
+    position:absolute;
+    font-size: 25px;
+    color: white;
+    top: 100px;
+    left:30px;
+    font-style: italic;
+}
+
+.box50{
+    background-color: grey;
+    color: grey;
+    opacity: 100%;
+    border-style: solid;
+    position: absolute;
+    width: 1534px;
+    height: 70px;
+    left: -20px;
+    top: 0px;
+}
+
+.s50{
+  font-style: bold;
+  font-size: 300%;
+  color: #cc1a1a;
+  position: absolute;
+  left: 670px;
+  top: 0px;
+  }
+  
+.s51{
+  font-style: bold;
+  font-size: 300%;
+  color: #dad2d2;
+  position: absolute;
+  left: 710px;
+  top: 0px;
+  }
+
+  .head3{
+    position: absolute;
+    font-size: 55px;
+    color: #cc1a1a;
+    top: 550px;
+    left:10px;
+    font-style:bold;
+    font-family:serif;
+  }
+
+  .text2{
+    position: absolute;
+    font-size: 22px;
+    color: white;
+    top: 600px;
+    left:10px;
+    font-style: italic;
+  }
+
+.head4{
+    position: absolute;
+    font-size: 55px;
+    color: #cc1a1a;
+    top: 750px;
+    left:10px;
+    font-style:bold;
+    font-family:serif;
+  }
+
+  .text3{
+    position: absolute;
+    font-size: 22px;
+    color: white;
+    top: 800px;
+    left:10px;
+    font-style: italic;
+  }
+
+  .head5{
+    position: absolute;
+    font-size: 35px;
+    color: #cc1a1a;
+    top: 1000px;
+    left: 320px;
+    font-style:bold;
+    font-family:serif;
+  }
