@@ -4,7 +4,7 @@ import './home.css' ;
 import { Link } from "react-router-dom";
 
 
-import imge from './E-learning.png';
+import imge from './home page img.png';
 
 import cse from './Cse.png' ;
 import it from './it.png' ;
@@ -27,6 +27,7 @@ import insta from './instagram.png' ;
 import git from './github.png' ;
 
 function Home()
+
 {
     return(
     <>
@@ -51,18 +52,16 @@ function Home()
 
 
         <div id='home'>
+            <br></br>
             <div id='content'>
                 <div class="h12">
                     <p>OUR MOTTO</p>
                 </div>
-                <div class="justify">
                <p>
                     V-XPLORE is a open community and a global platform for students for learning through online. As most of the online websites provide courses and contents with premium payments we providing a economy-free courses.<br></br><br></br><br></br>
                     As a V-XPLORE user and , as a V-XPLORE contributor you can both gain knowledge and share your knowledge to help others to gain their knowledge. <br></br> <br></br><br></br>
                     As you grow , the society will also grow with you.
-                    
                 </p>
-                </div>
 
                 <div id="btn">
                     <a href="#services">More details</a>
@@ -74,6 +73,8 @@ function Home()
                 <img class="imr"src={imge} alt="Imge" />
             </div>  
         </div>
+
+
 
         <div id='upload'>
             <div id='content1'>
@@ -96,16 +97,22 @@ function Home()
             </div>
         </div>
 
+
+
         <div id="services">
             <div id="col">
                 <br></br>
                 <div class="h12">
                     <p>SERVICES</p>
                 </div>
-            <p>1. SUBJECT NOTES---Our notes are updated regularly. Dont miss to check this out!<br/>
+            <p> An engineering education will “exercise” your brain, developing your ability to think logically and solve problems.
+                <br></br> If you like to question, explore, invent, discover, and create, then engineering could be the ideal profession for you.
+                <br></br><br></br>
+            1. SUBJECT NOTES---Our notes are updated regularly. Dont miss to check this out!<br/>
             2. QUESTION PAPERS---Not satisfied? Try answering to previous year question papers!<br/>
             3. VIDEO LECTURES---Can't understand by reading? No problem see our video lectures!<br/>
-            4. PLACEMENT PREPARATION---You have to make your placements with love these days!</p>
+            4. PLACEMENT PREPARATION---You have to make your placements with love these days!
+            </p>
 
             <div id="c1">
                 <img class="ima1"src={notes} alt="STUDY"/>
@@ -127,11 +134,18 @@ function Home()
             </div>
         </div>
 
+
+
         <div id='departments'>
             <div class="h12">
                 <p>DEPARTMENTS</p>
             </div>
-                <p>Choose your department<br></br>Make your knowledge</p>
+                <p>There is no shortage of solutions to be discovered in engineering. There is no single answer, 
+                    <br></br> no answer in the back of the book, no professor to tell you that you are right or wrong. 
+                    <br></br> You must devise a solution and persuade others that your solution is the best one.
+                    <br></br><br></br>
+                    REMIND IT AND SELECT YOUR DEPARTMENT BELOW !
+                </p>
                 <div id="i1">
                 <Link to="/Four"><div class="card">
                     <img src={aids} alt="AIDS"/>
@@ -251,9 +265,9 @@ function Home()
                     <p>Quries :</p>
                 </div>
 
-                <Link to="/about"><div class="mi"><p>More info</p></div></Link>
                 <Link to="/about"><div class="faq"><p>FAQ</p></div></Link>
-                <Link to="/about"><div class="au"><p>About us</p></div></Link>
+                <Link to="/about"><div class="pp"><p>Privacy Policy</p></div></Link>
+                <Link to="/about"><div class="toc"><p>Terms of services</p></div></Link>
                 
                 <div class="stt">Special Thanks to:</div>
                 <div class="linkedin2">

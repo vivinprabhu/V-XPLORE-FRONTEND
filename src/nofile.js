@@ -19,7 +19,7 @@ class Nofile extends React.Component{
                 </div>
             </div>
 
-            <div>
+            <div class="nfbtn">
                 <Link to="/Home"><button>BACK</button></Link>
             </div>
         </div>

@@ -12,7 +12,7 @@ class Four extends React.Component{
 
    render(){
     const mystyle={
-        height:'69vh',
+        height:'67vh',
         width:'100vh',
     };
    

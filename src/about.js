@@ -36,7 +36,7 @@ return(
 
                     <div class="head4">Why choose us?</div>
                     <div class="text3"><p>We as fellow students understand the pressure and anxiety that students face due to exams and V-
-                        learn is here to alleviate these fears by providing this platform for students to prepare themselves and even share notes among eachother.Our goal is to make studying
+                        Xplore is here to alleviate these fears by providing this platform for students to prepare themselves and even share notes among eachother.Our goal is to make studying
                         fun and interesting again by providing various study materials such as lectures and question papers  from professionals and notes students from various parts of the world.</p>
                         <p>We hope our website satifies your needs if any queries feel free to fill the feedback form and we wish you all the best on your journey.
                             </p>

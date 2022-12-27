@@ -12,9 +12,14 @@ body{
 }
 
 .logo{
+    width: 99.6%;
     margin: auto;
     border: 3px solid black;
     background-color: grey;
+}
+
+.logo:hover{
+    background: darkgoldenrod;
 }
 
 .h11{
@@ -39,13 +44,13 @@ a{
 }
 
 ul{
-    background-color: grey;
+    background-color: transparent;
     height: 5%;
 }
 
 li{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 250%;
+    font-size: 200%;
     display: inline-block;
     height: 5%;
     padding: 0 2%;
@@ -54,7 +59,7 @@ li{
 }
 
 li:hover{
-    background-color: darkgoldenrod;
+    background-color: red;
     border-style: groove;
 }
 
@@ -109,7 +114,7 @@ button{
 }
 
 #departments{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight:bold;
     font-size: 150%;
     color: white;
@@ -170,7 +175,7 @@ button{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     color: black;
-    font-size: 130%;
+    font-size: 140%;
 }
 
 .ima1{
@@ -203,7 +208,7 @@ a:hover{
 #log{
     background-color: burlywood;
     text-align: center;
-    width: 6%;
+    width: 7%;
     float: right;
     margin: -5% 1%;
     border-radius: 50%;
@@ -211,8 +216,9 @@ a:hover{
 }
 
 #log:hover{
-    background-color: darkgoldenrod;
+    background-color: red;
 }
+
 
 .info{
     margin: auto;
@@ -394,17 +400,17 @@ a:hover{
 }
 
 .faq{
-    margin: -4% -9%;
+    margin: -4% 5%;
     float: left;
 }
 
-.au{
-    margin: -2% -9%;
+.pp{
+    margin: -2% 5%;
     float: left;
 }
 
-.mi{
-    margin: 0% 3%;
+.toc{
+    margin: 0% -14%;
     float: left;
 }
 
@@ -419,7 +425,7 @@ a:hover{
 }
 
 .linkedin{
-    margin: -5% 2%;
+    margin: -4% 2%;
     float: right;
 }
 
@@ -431,12 +437,12 @@ a:hover{
 .stt{
     font-weight: lighter;
     font-size: 70%;
-    margin: 6% -10%;
+    margin: 6% -17%;
     float: left;
 }
 
 .linkedin2{
-    margin: 8% -9%;
+    margin: 8% -14%;
     float: left;
 }
 
