@@ -45,6 +45,7 @@ function Home()
             <li><a href='#upload'>Upload</a></li>
             <li><a href='#services'>Services</a></li>
             <li><a href='#departments'>Departments</a></li>
+            <li><Link to="/Tempnote"><a class="size">Notes</a></Link></li>
             <li><Link to="/Feedback"><a class="size">Feedback</a></Link></li>
             <li><a href='#contact'>Contact us</a></li>
         </ul>
@@ -243,9 +244,9 @@ function Home()
             <br></br> 
             <div class="h18">
                 GET IN TOUCH
-                <div><br></br><a href="@"><img class="twitter" src={twitter} alt="twitter"/></a></div>
-                <div><a href="@"><img class="insta" src={insta} alt="insta"/></a></div>
-                <div><a href="@"><img class="git" src={git} alt="git"/></a></div>
+                <div><br></br><a href="https://twitter.com/xplore_v"><img class="twitter" src={twitter} alt="twitter"/></a></div>
+                <div><a href="https://www.instagram.com/v_xplore__/"><img class="insta" src={insta} alt="insta"/></a></div>
+                <div><a href="https://github.com/XPLORE-V"><img class="git" src={git} alt="git"/></a></div>
 
                 <div class="team">
                     <p>TEAM: </p>
