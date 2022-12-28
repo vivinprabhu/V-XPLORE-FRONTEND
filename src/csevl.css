@@ -1,0 +1,121 @@
+.background100{
+    background-color: white;
+    color: black;
+}
+
+.headvideo{
+    font-family: "Bodoni MT";
+    position: fixed;
+    top: -3%;
+    left: 1%;
+    color: red;
+    font-size: 170%;
+}
+
+.in{
+    position: fixed;
+    left: 1300px;
+    top: 25px;
+    width: 12%;
+    height: 3%;
+}
+
+.searching{
+    position: fixed;
+    top: 28px;
+    left: 1465px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.btn101{
+    background-color: rgb(33, 33, 103);
+    color: white;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 10px 10px;
+    width: 80px;
+    height: 40px;
+}
+
+.tittleforlang{
+    font-size: 200%;
+    color: red;
+}
+
+#html{
+    position: static;
+    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    font-size: 130%;
+    min-height: 100%;
+}
+
+
+.li1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 200%;
+    display: block;
+    height: 5%;
+    padding: 0px 2px;
+    line-height: 0 5%;
+    background-color: burlywood;
+    line-height: 0 3%;
+}
+
+.ul1{
+    background-color: transparent;
+    height: 5%;
+    text-align: center;
+}
+
+.vl-search{
+    float: left;
+    position: fixed;
+    width: 12%;
+    height: 250%;
+    padding-top: 0px;
+}
+
+#css{
+    position: static;
+    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    font-size: 130%;
+    min-height: 100%;
+}
+
+#js{
+    position: static;
+    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    font-size: 130%;
+    min-height: 100%;
+}
+
+#python{
+    position: static;
+    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    font-size: 130%;
+    min-height: 100%;
+}
+
+#java{
+    position: static;
+    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    font-size: 130%;
+    min-height: 100%;
+}

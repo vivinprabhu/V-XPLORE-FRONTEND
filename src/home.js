@@ -6,15 +6,15 @@ import { Link } from "react-router-dom";
 
 import imge from './home page img.png';
 
-import cse from './Cse.png' ;
-import it from './it.png' ;
-import ece from './ece.png' ;
-import eee from './eee.png' ;
-import mech from './mech.png' ;
-import civil from './civil.png' ;
 import aids from './ai.png' ;
 import aiml from './aiml.png' ;
-import cyber from './cybersecurity1.png' ;
+import civil from './civil.png' ;
+import cse from './Cse.png' ;
+import cyber from './cybersecurity.png' ;
+import ece from './ece.png' ;
+import eee from './eee.png' ;
+import it from './it.png' ;
+import mech from './mech.png' ;
 import metro from './mechatronics.png' ;
 
 import notes from './notes1.png' ;
@@ -175,7 +175,7 @@ function Home()
                 </div>
 
                 <div id="i1">
-                <Link to="/Four"><div class="card">
+                <Link to="/CseFour"><div class="card">
                     <img src={cse} alt="CSE"/>
                     <div class="info">
                         <a>CSE</a>

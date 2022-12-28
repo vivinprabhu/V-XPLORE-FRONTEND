@@ -15,7 +15,7 @@ return(
         <div class="img">
 
                 <div className='head50'>
-                    <marquee direction="right">V-XPLORE</marquee>
+                    <marquee direction="left">Explore knowledge freely</marquee>
                 </div>
 
                 <div class="box50"> </div>

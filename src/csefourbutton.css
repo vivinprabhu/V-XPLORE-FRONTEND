@@ -1,0 +1,338 @@
+.background6{
+    padding: 80px 0 90px 0;
+    background-image: url('backk.png');
+    background-size: 1655px 830px;
+    background-repeat: no-repeat;
+}
+.header{
+    background-color:  rgb(59, 59, 59);
+    text-align:justify;
+    color: rgb(53, 53, 53);
+    padding: 40px 40px;
+    position: fixed;
+    width: 100%;
+    height: -10px;
+    top: 0;
+    left: 0;
+    font-size: larger;
+}
+.headv{
+    text-align: end;
+    position: relative;
+    top: -124px;
+    left: -40px;
+    color: red;
+    font-size: 300%;
+}
+.headl{
+    text-align: end;
+    position: relative;
+    font-size: 250%;
+    top: -252px;
+    left: 175px;
+    color: rgb(255, 255, 255);
+}
+
+.image1{
+    height: 60px;
+    width: 65px;
+    margin-top: 20px;
+    margin-left: 18px;
+}
+
+.App1 {
+    background: white;
+    margin: 100px auto;
+    padding: 10px;
+    cursor: pointer;
+    position: fixed;
+    width: 150px;
+    height: 150px;
+    left: 900px;
+    top: 50px;
+}
+.App1:hover {
+    background: rgb(54, 54, 54);
+    transform: scale(1.5);
+    transition-duration: 0.5s;
+}
+
+.card1 {
+    width: 130px;
+    height: 130px;
+    border-radius: 20px;
+    padding: 10px 10px;
+    background: white;
+    position: absolute;
+    transition: 0.4s ease-out;
+  }
+
+.card1:hover {
+    transform: translateY(20px);
+    background-color: transparent;
+  }
+
+.card1:hover .info1 {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.card1 img {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: -5px;
+    left: 0;
+    border-radius: 0px;
+}
+
+.card1 .info1 {
+    position: relative;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s;
+    top: 0px;
+  }
+
+.btn11{
+    cursor: pointer;
+    position: relative;
+    left: -3px;
+    top: 100px;
+}
+.subb1{
+    top: 10px;
+    left: 760px;
+}
+.App2 {
+    width: 300px;
+    background: white;
+    font-size: 40px;
+    margin: 100px auto;
+    padding: 10px;
+    cursor: pointer;
+    position: fixed;
+    width: 150px;
+    height: 150px;
+    left: 1200px;
+    top: 50px;
+}
+.App2:hover {
+    background: rgb(54, 54, 54);
+    transform: scale(1.5);     
+    transition-duration: 0.5s;
+}
+ 
+  
+.card2 {
+    width: 130px;
+    height: 130px;
+    border-radius: 20px;
+    padding: 10px 10px;
+    background: white;
+    position: fixed;
+    transition: 0.4s ease-out;
+  }
+
+.card2:hover {
+    transform: translateY(20px);
+    background-color: transparent;
+  }
+
+.card2:hover .info2 {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.card2 img {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: -5px;
+    left: 0;
+    border-radius: 0px;
+}
+
+.card2 .info2 {
+    position: relative;
+    z-index: 5;
+    color: white;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s;
+    top: -2px;
+  }
+
+.btn12{
+    cursor: pointer;
+    position: relative;
+    left: 0px;
+    top: 80px;
+}
+.App3 {
+    width: 300px;
+    background: white;
+    font-size: 40px;
+    margin: 100px auto;
+    padding: 10px;
+    cursor: pointer;
+    position: fixed;
+        width: 150px;
+        height: 150px;
+        left: 1200px;
+        top: 295px;
+}
+.App3:hover {
+    background: rgb(54, 54, 54);
+    transform: scale(1.5);     
+    transition-duration: 0.5s;
+}
+
+ 
+  
+.card3 {
+    width: 130px;
+    height: 130px;
+    border-radius: 20px;
+    padding: 10px 10px;
+    background: white;
+    position: fixed;
+    transition: 0.4s ease-out;
+  }
+
+.card3:hover {
+    transform: translateY(20px);
+    background-color: transparent;
+  }
+
+.card3:hover .info3 {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.card3 img {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: -5px;
+    left: 0;
+    border-radius: 0px;
+}
+
+.card3 .info3 {
+    position: relative;
+    z-index: 5;
+    color: white;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s;
+    top: -2px;
+  }
+
+.btn13{
+    cursor: pointer;
+    position: relative;
+    left: -10px;
+    top: 80px;
+}
+.subb3{
+    top: 10px;
+    left: 760px;
+}
+.App4 {
+    width: 300px;
+    background: white;
+    font-size: 40px;
+    margin: 100px auto;
+    padding: 10px;
+    cursor: pointer;
+    position: fixed;
+    width: 150px;
+    height: 150px;
+    left: 900px;
+    top: 295px;
+}
+.App4:hover {
+        background: rgb(54, 54, 54);
+        transform: scale(1.5); 
+        background-repeat: no-repeat;    
+        transition-duration: 0.5s;
+}
+
+.card4 {
+    width: 130px;
+    height: 130px;
+    border-radius: 20px;
+    padding: 10px 10px;
+    background: white;
+    position: fixed;
+    transition: 0.4s ease-out;
+  }
+
+.card4:hover {
+    transform: translateY(20px);
+    background-color: transparent;
+  }
+
+.card4:hover .info4 {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.card4 img {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: -5px;
+    left: 0;
+    border-radius: 0px;
+}
+
+.card4 .info4 {
+    position: relative;
+    z-index: 5;
+    color: white;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s;
+    top: -2px;
+  }
+
+.btn14{
+    cursor: pointer;
+    position: relative;
+    left: -10px;
+    top: 80px;
+}
+.subb4{
+    top: 10px;
+    left: 760px;
+}
+.heading{
+    top: -95px;
+    text-align:end;
+    color:rgb(255, 255, 255);
+    position: relative;
+}
+.heading-{
+    top: -150px;
+    text-align:end;
+    color:rgb(255, 0, 0);
+    position: relative;
+    left: -5px;
+}
+.heading--{
+    top: -250px;
+    text-align:end;
+    color:rgb(255, 0, 0);
+    position: relative;
+    left: -5px;
+}
+
+
+.deptname{
+    position: absolute;
+    top: 15%;
+    left: 2%;
+    font-size: 200%;
+}
