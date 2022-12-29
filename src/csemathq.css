@@ -1,0 +1,18 @@
+.ciaheading{
+    color: red;
+    font-style: italic;
+    font-size: 120%;
+}
+
+.viewq{
+    color: blue;
+    font-size: 150%;
+    margin-left: -13%;
+}
+
+.downloadq{
+    color: blue;
+    font-size: 150%;
+    margin-left: 13%;
+    margin-top: -3%;
+}

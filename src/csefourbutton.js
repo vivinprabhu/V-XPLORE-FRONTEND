@@ -34,10 +34,10 @@ class CseFour extends React.Component{
             </div>
 
             <div class="deptname">
-                <marquee direction="right">Computer Science and Enginerring</marquee>
+                <marquee direction="left">Computer Science and Enginerring</marquee>
             </div>
             
-            <Link to="/Nofile">
+            <Link to="/Cseweb">
                 <div class="App1">
                 <div class="card1"><img src={note} alt="note"/>
                     <div class="info1">
@@ -59,7 +59,7 @@ class CseFour extends React.Component{
                 </div>
             </div></Link>
 
-            <Link to="/Nofile"><div className="App3">
+            <Link to="/Csejavaq"><div className="App3">
                 <div class="card3"><img src={question} alt="question"/>
                     <div class="info3">
                         <div>
