@@ -44,17 +44,17 @@ export default function RouteApp(){
 
                 <Route path="/CseFour" element={<CseFour/>}></Route>
 
+                <Route path="/Csesn" element={<Csesn/>}></Route>
                 <Route path="/Csevl" element={<Csevl/>}></Route>
                 <Route path="/Cserefbook" element={<Cserefbook/>}></Route>
-                <Route path="/Csesn" element={<Csesn/>}></Route>
                 <Route path="/Cseqp" element={<Cseqp/>}></Route>
 
                 <Route path="/Csemathq" element={<Csemathq/>}></Route>
-                <Route path="/Csewebq" element={<Csewebq/>}></Route>
                 <Route path="/Csejavaq" element={<Csejavaq/>}></Route>
+                <Route path="/Csewebq" element={<Csewebq/>}></Route>
 
-                <Route path="/Csejava" element={<Csejava/>}></Route>
                 <Route path="/Csemath" element={<Csemath/>}></Route>
+                <Route path="/Csejava" element={<Csejava/>}></Route>
                 <Route path="/Cseweb" element={<Cseweb/>}></Route>
             </Routes>
         </Router>
