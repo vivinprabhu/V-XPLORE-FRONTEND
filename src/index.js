@@ -15,12 +15,14 @@ import About from "./about";
 import CseFour from "./csefourbutton";
 import Csevl from "./csevl";
 import Cserefbook from "./cserefbook";
+import Csesn from "./csesn";
 import Csemathq from "./csemathq";
 import Csewebq from "./csewebq";
 import Csejavaq from "./csejavaq";
 import Csejava from "./csejava";
 import Csemath from "./csemath";
 import Cseweb from "./cseweb";
+import Cseqp from "./cseqp";
 
 import{BrowserRouter as Router,Routes,Route} from "react-router-dom";
 
@@ -44,6 +46,8 @@ export default function RouteApp(){
 
                 <Route path="/Csevl" element={<Csevl/>}></Route>
                 <Route path="/Cserefbook" element={<Cserefbook/>}></Route>
+                <Route path="/Csesn" element={<Csesn/>}></Route>
+                <Route path="/Cseqp" element={<Cseqp/>}></Route>
 
                 <Route path="/Csemathq" element={<Csemathq/>}></Route>
                 <Route path="/Csewebq" element={<Csewebq/>}></Route>
