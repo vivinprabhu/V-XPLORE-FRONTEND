@@ -1,19 +1,25 @@
 import React from "react";
 import './signup.css'
 
+import backgr from "./Login and signup img.jpeg";
+
+import { useState } from "react";
+
 import {Link} from "react-router-dom";
 
-class Signup extends React.Component{
-
-   render(){
-    const mystyle={
-        height:'100vh',
-        width:'100vh',
+function Signup(){
+    const [passwordShown, setPasswordShown] = useState(false);
+    const togglePassword = () => {
+    setPasswordShown(!passwordShown);
     };
 
+
     return(
-        <div class="background2">
-        <div style={mystyle}>
+            <>
+
+            <div class="background2">
+                <img src={backgr} height="700px" width="800px"/>
+            </div>
 
         <form>
 
@@ -30,13 +36,17 @@ class Signup extends React.Component{
             </div>
             
             <div class="password">
-                <input class="input-field2" type="password" id = "pass" placeholder="ENTER PASSWORD   " minLength={8} required/>
+                <input class="input-field2" type={passwordShown ? "text" : "password"} placeholder="ENTER PASSWORD   " minLength={8} required/>
+            </div>
+
+            <div class="showpassword1">
+                <input type="checkbox"  onClick={togglePassword} />Check Passwords
             </div>
 
             <div class="cpassword">
-                <input class="input-field2" type="password" id = "pass1" placeholder="CONFIRM PASSWORD     " minLength={8} required/>
+                <input class="input-field2" type={passwordShown ? "text" : "password"} placeholder="CONFIRM PASSWORD" minLength={8} required/>
             </div>
-            
+
             <div class="email1">
                 <input class="input-field2" type="email" placeholder="EMAIL" required/>
             </div>
@@ -53,11 +63,11 @@ class Signup extends React.Component{
 
         </div>
 
-        </form>  
-        </div>  
-        </div>    
+        </form>
+
+        </>    
     );
-    }
 }
+
 
 export default Signup;

@@ -1,8 +1,5 @@
 .background2{
-    background-image: url('Login and signup img.jpeg');
-    background-color: black;
-    background-repeat: no-repeat;
-    background-size: 800px 700px;
+    margin-left: -50%;
 }
 
 
@@ -105,4 +102,11 @@ h4{
 
 .pz{
     color: blue;
+}
+
+.showpassword{
+    color: black;
+    font-size: 75%;
+    margin-top: 39%;
+    margin-left: -16%;
 }
