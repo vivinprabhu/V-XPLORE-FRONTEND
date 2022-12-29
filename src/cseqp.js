@@ -27,7 +27,7 @@ class Cseqp extends React.Component{
                 <img src={math}/>
             <div class="info">
                 <p>Mathematical Structures<br></br><br></br>Course Code - 21CSMS1</p>
-                <Link to="/Csemathq"><button>Calculate</button></Link>
+                <Link to="/Csemathq"><button>Solve</button></Link>
             </div>
             </div>
         </div>
@@ -36,7 +36,7 @@ class Cseqp extends React.Component{
             <div class="card0"><img src={java}/>
             <div class="info">
                 <p>OOP's using Java<br></br><br></br>Course Code - 21CSJA01</p>
-                <Link to="/Csejavaq"><button>Code</button></Link>
+                <Link to="/Csejavaq"><button>Debug</button></Link>
             </div>
             </div>
         </div>
@@ -45,7 +45,7 @@ class Cseqp extends React.Component{
         <div class="card0"><img src={web}/>
             <div class="info">
             <p>Web Development<br></br><br></br>Course Code - 21CSWE01</p>
-            <Link to="/Csewebq"><button>Develop</button></Link>
+            <Link to="/Csewebq"><button>Crack</button></Link>
             </div>
         </div>
         </div>
