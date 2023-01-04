@@ -66,7 +66,7 @@ h4{
     width: 90px;
     height: 40px;
     left: 260px;
-    top: 280px;
+    top: 290px;
 }
 
 .btn3:hover{
@@ -83,7 +83,7 @@ h4{
     position: absolute;
     width: 80px;
     height: 40px;
-    left: 260px;
+    left: 275px;
     top: 450px;
 }
 
@@ -107,6 +107,23 @@ h4{
 .showpassword{
     color: black;
     font-size: 75%;
-    margin-top: 39%;
-    margin-left: -18%;
+    margin-top: 42%;
+    margin-left: -30%;
+}
+
+
+.chkemail
+{
+    position: fixed;
+    margin-top: 10%;
+    margin-left: 15%;
+    font-size: 70%;
+}
+
+.chkPass
+{
+    position: fixed;
+    margin-top: 14.7%;
+    margin-left: 13%;
+    font-size: 70%;
 }

@@ -8,11 +8,38 @@ import { useState } from "react";
 import {Link} from "react-router-dom";
 
 function Login(){
+    const [email,setEmail]=useState('');
+    const [error,setError]=useState('');
+    const [msg,setMsg]=useState('');
+    const [password,setPassword]=useState('');
+    const [msgg,setMsgg]=useState('');
+    const [errorr,setErrorr]=useState('');
     const [passwordShown, setPasswordShown] = useState(false);
     const togglePassword = () => {
     setPasswordShown(!passwordShown);
     };
+const handleChange=(e)=>{
+    setPassword(e.target.value);
+    if(/^[A-Za-z0-9#@%]{7}$/.test(password)===false){
+        setErrorr('Password should contain 8 characters');
+    }
+    else{
+        setErrorr('');
+        return true;
+    }
 
+}
+const checkEmail=(e)=>
+{
+    setEmail(e.target.value);
+    if(/^[0-9a-z.]+@[0-9a-z.-]+\.[a-z]{2,4}$/.test(email)===false){
+        setError('Please enter valid email');
+    }
+    else{
+        setError('');
+        return true;
+    }
+}
    
     return(
         <>
@@ -28,9 +55,11 @@ function Login(){
                         <h3>LOGIN</h3>
                     </div>
                 
-                    <input className='input-field' type="email" placeholder="Enter Email" required />
+                    <input className='input-field' type="email" placeholder="Enter Email" onChange={checkEmail} />
+                    <p style={{color:"red"}}className="chkemail">{error}</p>
 
-                    <input className='input-field1' type={passwordShown ? "text" : "password"} placeholder="Enter Password" minLength={8} required />
+                    <input className='input-field1' type={passwordShown ? "text" : "password"} placeholder="Enter Password" onChange={handleChange} />
+                    <p style={{color:"red"}} className='chkPass'>{errorr}</p>
                     
                     <div class="showpassword">
                         <input type="checkbox"  onClick={togglePassword} />Show Password
