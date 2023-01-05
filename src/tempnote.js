@@ -6,23 +6,20 @@ function Tempnote(){
     return(
         <>
         <form>
-
             <br></br><br></br>
 
-            <div class="tempnote">Temperory Notes</div>
-                    
-                    <div class="note">
+            <div class="tempnote">Temperory Notes</div>     
+                <div class="note">
 
-                        <br></br><br></br>
+                    <br></br><br></br>
 
-                        <div class="text">
-                            <textarea rows="30" cols="200" placeholder="Notes..."></textarea>
-                        </div>
+                    <div class="text">
+                        <textarea rows="30" cols="200" placeholder="Notes..."></textarea>
+                    </div>
 
-                        <br></br>
+                    <br></br>
 
-                        <input type="submit" value="SUBMIT"/>
-
+                    <input type="submit" value="SAVE"/>
                 </div>
         </form>
 

@@ -1,39 +1,37 @@
 import React from "react";
 import './firstpage.css' ;
+
 import {Link} from "react-router-dom";
 
-class Firstpage extends React.Component{
+class Firstpage extends React.Component
+{
+    render()
+    {
 
-    render(){
-     const mystyle={
+     const mystyle =
+     {
         height:'100vh',
         width:'100vh',
      };
     
     return(
         <div class="background1">
-        <div style={mystyle}>
+            <div style={mystyle}>
+                <form>
+                    <div>  
+                        <h1>V</h1>
+                        <h2>-XPLORE</h2>
 
-        <form>
+                        <Link to="/login"><input class='btn' type='submit' value='LOGIN'></input></Link>
+            
+                        <Link to="/signup"><input class='btn2' type='submit' value="Don't have an account"></input></Link>
 
-            <div>
-                <h1>V</h1>
-    
-                <h2>-XPLORE</h2>
-
-                <Link to="/login"><input class='btn' type='submit' value='LOGIN'></input></Link>
-
-    
-                <Link to="/signup"><input class='btn2' type='submit' value="Don't have an account"></input></Link>
-        
+                    </div>
+                </form>
             </div>
-
-         </form>
-
         </div>
-        </div>
-    );
-}
+        );
+    }
 }
 
 export default Firstpage;

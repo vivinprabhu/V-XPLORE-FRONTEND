@@ -26,10 +26,10 @@ function Forgotpassword(){
 
                 <div class='box2'> </div>
 
-                <div class='s1'>Forgot Password</div>
-                <div class='s2' ><p> Enter E-mail Address:</p> <br></br><p>Create Password:</p><br></br><p>Confirm Password:</p></div>
                 <div class='s3'><p> V</p></div>
                 <div class='s4'><p>-XPLORE</p></div>
+                <div class='s1'>Forgot Password</div>
+                <div class='s2' ><p> Enter E-mail Address:</p> <br></br><p>Create Password:</p><br></br><p>Confirm Password:</p></div>
 
                 <div class="input4">
                     <div class="input-container">
@@ -41,7 +41,6 @@ function Forgotpassword(){
                     <div class="input-container">
             |             <input class="input-field7" type={passwordShown ? "text" : "password" } placeholder="New Password" minLength={8} required></input>
                     </div>
-
 
                     <br></br>
 
@@ -56,6 +55,7 @@ function Forgotpassword(){
                 </div> 
 
                 <Link to="/login"><input class='fpbtn' type="submit" value="RESET" /></Link>
+
             </form>
         </>
       );
