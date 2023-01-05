@@ -8,37 +8,39 @@ import { useState } from "react";
 import {Link} from "react-router-dom";
 
 function Login(){
-    const [email,setEmail]=useState('');
-    const [error,setError]=useState('');
-    const [msg,setMsg]=useState('');
-    const [password,setPassword]=useState('');
-    const [msgg,setMsgg]=useState('');
-    const [errorr,setErrorr]=useState('');
     const [passwordShown, setPasswordShown] = useState(false);
     const togglePassword = () => {
     setPasswordShown(!passwordShown);
     };
+
+    const [email,setEmail]=useState('');
+    const [error,setError]=useState('');
+    const [password,setPassword]=useState('');
+    const [errorr,setErrorr]=useState('');
+    
+
+    const checkEmail=(e)=>
+    {
+        setEmail(e.target.value);
+        if(/^[0-9a-z.]+@[0-9a-z.-]+\.[a-z]{2,4}$/.test(email)===false){
+            setError('Please enter Valid email');
+        }
+        else{
+            setError('');
+            return true;
+        }
+    }
+
 const handleChange=(e)=>{
     setPassword(e.target.value);
-    if(/^[A-Za-z0-9#@%]{7}$/.test(password)===false){
-        setErrorr('Password should contain 8 characters');
+    if(/^(.*[A-Za-z0-9!@#$%^&*_+-=.]{7})$/.test(password)===false){
+        setErrorr('Invalid password');
     }
     else{
         setErrorr('');
         return true;
     }
 
-}
-const checkEmail=(e)=>
-{
-    setEmail(e.target.value);
-    if(/^[0-9a-z.]+@[0-9a-z.-]+\.[a-z]{2,4}$/.test(email)===false){
-        setError('Please enter valid email');
-    }
-    else{
-        setError('');
-        return true;
-    }
 }
    
     return(

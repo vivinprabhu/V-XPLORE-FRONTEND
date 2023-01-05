@@ -40,6 +40,7 @@ function Home()
             <div id="log">
                 <Link to="/login">Logout</Link>
             </div>
+            
         <ul>
             <li><a href='#home'>Home</a></li>
             <li><a href='#upload'>Upload</a></li>
