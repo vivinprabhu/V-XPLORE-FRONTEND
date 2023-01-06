@@ -15,11 +15,11 @@ body{
     width: 99.6%;
     margin: auto;
     border: 3px solid black;
-    background-color: grey;
+    background-color: darkgrey;
 }
 
 .logo:hover{
-    background: darkgoldenrod;
+    background: gray;
 }
 
 .h11{
