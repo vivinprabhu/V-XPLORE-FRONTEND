@@ -20,40 +20,46 @@ function Login(){
     
 
     function handleSubmit(event) {
+        let isValid = true;
     
-        if(!email){
-          setemailError('The Email is required');
-          if(!password){
-            setPasswordError('The Password is required');
-            event.preventDefault();
-            return;
-          }else{
+        if (!email) {
             setemailError('The Email is required');
-            setPasswordError('')
-          }
-          event.preventDefault();
-          return;
-    
-    
-        }
-        if(email){
-          setemailError('');
-          if (!password) {
-            setPasswordError('The Password is required');
-            event.preventDefault();
-            return;
-          }
+            isValid = false;
+        } else {
+            setemailError('');
         }
         
-        else{
-          setemailError('');
-          setPasswordError('');
-          
+        if(!password){
+            setPasswordError('The Password is required');
+            isValid = false;
+        }else{
+            setPasswordError('');
         }
-      }
+    
+        if (!isValid) {
+            event.preventDefault();
+            return;
+        }
+        
+        // Check if email is in the correct format
+        if(!validateEmail(email)){
+            setemailError('Invalid Email address');
+            isValid = false;
+        }
+    
+        if (!isValid) {
+            event.preventDefault();
+            return;
+        }
+        //Submit the form
+    }
+    
+    function validateEmail(email) {
+        var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return re.test(email);
+    }
+    
 
-
-   
     return(
         <>
             <div class="background2">
