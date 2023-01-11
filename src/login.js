@@ -14,34 +14,45 @@ function Login(){
     };
 
     const [email,setEmail]=useState('');
-    const [error,setError]=useState('');
+    const [emailerror,setemailError]=useState('');
     const [password,setPassword]=useState('');
-    const [errorr,setErrorr]=useState('');
+    const [passworderror,setPasswordError]=useState('');
     
 
-    const checkEmail=(e)=>
-    {
-        setEmail(e.target.value);
-        if(/^[0-9a-z.]+@[0-9a-z.-]+\.[a-z]{2,4}$/.test(email)===false){
-            setError('Please enter Valid email');
+    function handleSubmit(event) {
+    
+        if(!email){
+          setemailError('The Email is required');
+          if(!password){
+            setPasswordError('The Password is required');
+            event.preventDefault();
+            return;
+          }else{
+            setemailError('The Email is required');
+            setPasswordError('')
+          }
+          event.preventDefault();
+          return;
+    
+    
         }
+        if(email){
+          setemailError('');
+          if (!password) {
+            setPasswordError('The Password is required');
+            event.preventDefault();
+            return;
+          }
+        }
+        
         else{
-            setError('');
-            return true;
+          setemailError('');
+          setPasswordError('');
+          
         }
-    }
+      }
 
-const handleChange=(e)=>{
-    setPassword(e.target.value);
-    if(/^(.*[A-Za-z0-9!@#$%^&*_+-=.]{7})$/.test(password)===false){
-        setErrorr('Invalid password');
-    }
-    else{
-        setErrorr('');
-        return true;
-    }
 
-}
    
     return(
         <>
@@ -57,18 +68,22 @@ const handleChange=(e)=>{
                         <h3>LOGIN</h3>
                     </div>
                 
-                    <input className='input-field' type="email" placeholder="Enter Email" onChange={checkEmail} />
-                    <p style={{color:"red"}}className="chkemail">{error}</p>
+                    <input className='input-field' type="email" placeholder="Enter Email" value={email} onChange={(event) => setEmail(event.target.value)} />
+                    <div class="alertemail">
+                        {emailerror && <div style={{color: 'red'}}>{emailerror}</div>}    
+                    </div>
 
-                    <input className='input-field1' type={passwordShown ? "text" : "password"} placeholder="Enter Password" onChange={handleChange} />
-                    <p style={{color:"red"}} className='chkPass'>{errorr}</p>
-                    
+                    <input className='input-field1' type={passwordShown ? "text" : "password"} placeholder="Enter Password"  onChange={(event) => setPassword(event.target.value)} />
+                    <div className="alertPass">
+                        {passworderror && <div style={{color: 'red'}}>{passworderror}</div>}
+                    </div>
+                     
                     <div class="showpassword">
                         <input type="checkbox"  onClick={togglePassword} />Show Password
                     </div>
 
                     <div>
-                        <Link to="/home"><input className='btn3' type='submit' value='Proceed'></input></Link>
+                        <Link to="/home"><input className='btn3' type='submit' value='Proceed' onClick={handleSubmit}></input></Link>
                     </div>
 
                     <Link to="/forgotpassword">

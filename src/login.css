@@ -112,7 +112,7 @@ h4{
 }
 
 
-.chkemail
+.alertemail
 {
     position: fixed;
     margin-top: 10%;
@@ -120,10 +120,10 @@ h4{
     font-size: 70%;
 }
 
-.chkPass
+.alertPass
 {
     position: fixed;
     margin-top: 14.7%;
-    margin-left: 17%;
+    margin-left: 15%;
     font-size: 70%;
 }
