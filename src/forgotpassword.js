@@ -138,10 +138,6 @@ function Forgotpassword(){
                     <input class='fpbtn' type="submit" value="RESET" onClick={handleSubmit}/>
                 </Link>
                 
-
-
-
-
             </form>
         </>
       );
