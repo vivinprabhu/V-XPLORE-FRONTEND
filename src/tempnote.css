@@ -1,4 +1,23 @@
 .tempnote{
+    margin-left: 0%;
     font-size: 150%;
     font-weight: bold;
 }
+
+.btntemp{
+        background-color: white;
+        color: black;
+        padding: 10px 10px;
+        cursor: pointer;
+        border-radius: 10px 10px;
+        position: absolute;
+        width: 100px;
+        height: 40px;
+        left: 48%;
+        top: 90%;
+    }
+    
+    .btntemp:hover{
+        opacity: 1;
+        color: red;
+    }

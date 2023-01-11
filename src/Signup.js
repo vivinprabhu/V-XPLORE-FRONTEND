@@ -40,7 +40,7 @@ function Signup(){
             </div>
 
             <div class="showpassword1">
-                <input type="checkbox"  onClick={togglePassword} />Check Password
+                <input type="checkbox"  onClick={togglePassword} />Check Passwords
             </div>
 
             <div class="cpassword">

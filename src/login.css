@@ -52,7 +52,7 @@ h4{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 90%;
     color: black;
-    left: 210px;
+    left: 225px;
     top: 395px;
 }
 
@@ -65,7 +65,7 @@ h4{
     position: absolute;
     width: 90px;
     height: 40px;
-    left: 260px;
+    left: 270px;
     top: 290px;
 }
 
@@ -81,9 +81,9 @@ h4{
     cursor: pointer;
     border-radius: 10px 10px;
     position: absolute;
-    width: 80px;
-    height: 40px;
-    left: 275px;
+    width: 75px;
+    height: 35px;
+    left: 285px;
     top: 450px;
 }
 

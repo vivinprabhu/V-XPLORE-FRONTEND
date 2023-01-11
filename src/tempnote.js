@@ -1,28 +1,47 @@
-import React from "react";
+import React, { useState } from "react";
 import './tempnote.css'
 
 function Tempnote(){
+    const [text, setText] = useState('');
+
+    const handleTextChange = (event) => {
+        setText(event.target.value);
+    }
+
+    const handleDownload = () => {
+        const textBlob = new Blob([text], {type: "text/plain"});
+        const downloadLink = document.createElement("a");
+        downloadLink.href = URL.createObjectURL(textBlob);
+        downloadLink.download = "Your_Notes.txt";
+        document.body.appendChild(downloadLink);
+        downloadLink.click();
+        document.body.removeChild(downloadLink);
+    }
 
     return(
         <>
         <form>
+
             <br></br><br></br>
 
-            <div class="tempnote">Temperory Notes</div>     
+            <div class="tempnote">Temperory Notes</div>   
+
                 <div class="note">
 
                     <br></br><br></br>
 
                     <div class="text">
-                        <textarea rows="30" cols="200" placeholder="Notes..."></textarea>
+                        <textarea rows="30" cols="190" placeholder="Notes..." onChange={handleTextChange} value={text}></textarea>
                     </div>
 
                     <br></br>
 
-                    <input type="submit" value="SAVE"/>
+                    <div>
+                        <input class="btntemp" type="button" value="DOWNLOAD" onClick={handleDownload}/>
+                    </div>
                 </div>
-        </form>
 
+        </form>
         </>
     );
 }

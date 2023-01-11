@@ -49,7 +49,7 @@ function Forgotpassword(){
                     </div>
 
                     <div class="showpassword2">
-                        <input type="checkbox"  onClick={togglePassword} />Re-check Passwords
+                        <input type="checkbox"  onClick={togglePassword} />Show Passwords
                     </div>
                     
                 </div> 

@@ -1,8 +1,7 @@
 .background5{
-    padding: 80px 0 90px 0;
-    background-image: url('imgg.jpg') ;
-    background-size: 1656px 780px;
-    background-repeat: no-repeat;
+    margin-top: 0%;
+    margin-left: -5%;
+
 }
 
 .Back{
@@ -15,6 +14,7 @@
     border-radius: 90px;
     background-color: rgb(255, 255, 255);
     left: 505px;
+    top: 13%;
 }
 
 .heads{
@@ -77,4 +77,24 @@
     position: absolute;
     left: -40px;
     color: black;
+}
+.alerttext{
+    position: fixed;
+    margin-top: 9em;
+    margin-left: -5em;
+    font-size: 75%;
+}
+
+.alertemail1{
+    position: fixed;
+    margin-top: 15.5em;
+    margin-left: -5em;
+    font-size: 75%;
+}
+
+.alertfeedback{
+    position: fixed;
+    margin-top: 25em; 
+    margin-left: -5em;  
+    font-size: 75%;
 }

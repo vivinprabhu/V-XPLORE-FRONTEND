@@ -41,7 +41,6 @@ function Login(){
             return;
         }
         
-        // Check if email is in the correct format
         if(!validateEmail(email)){
             setemailError('Invalid Email address');
             isValid = false;
@@ -51,7 +50,7 @@ function Login(){
             event.preventDefault();
             return;
         }
-        //Submit the form
+        
     }
     
     function validateEmail(email) {
