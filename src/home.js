@@ -157,7 +157,8 @@ function Home()
                 </p>
 
                     <div id="i1">
-                    <Link to="/Four"><div class="card">
+                    <Link to="/Four">
+                        <div class="card">
                         <img src={aids} alt="AIDS"/>
                         <div class="info">
                         <a>AIDS</a>

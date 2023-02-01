@@ -13,9 +13,7 @@ function Tempnote(){
         const downloadLink = document.createElement("a");
         downloadLink.href = URL.createObjectURL(textBlob);
         downloadLink.download = "Your_Notes.txt";
-        document.body.appendChild(downloadLink);
         downloadLink.click();
-        document.body.removeChild(downloadLink);
     }
 
     return(
