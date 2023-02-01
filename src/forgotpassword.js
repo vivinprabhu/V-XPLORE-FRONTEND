@@ -104,7 +104,7 @@ function Forgotpassword(){
 
                 <div class="input4">
                     <div class="input-container">
-                        <input class="input-field7" type="email" placeholder="E-mail" value={name} onChange={(event) => setName(event.target.value)}/>
+                        <input class="input-field7" type="email" placeholder="Username" value={name} onChange={(event) => setName(event.target.value)}/>
                     </div> 
                         <div className='alerttexts1'>
                             {nameError && <div style={{color: 'red'}}>{nameError}</div>}
