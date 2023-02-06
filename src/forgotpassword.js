@@ -114,14 +114,14 @@ function Forgotpassword(){
                         <br></br>
 
                     <div class="input-container">
-            |            <input class="input-field7" type={passwordShown ? "text" : "password" } placeholder="New Password" value={field1} onChange={handleSubmit} onChange={e=>{setField1(e.target.value);}} />
+                        <input class="input-field7" type={passwordShown ? "text" : "password" } placeholder="New Password" value={field1} onChange={handleSubmit} onChange={e=>{setField1(e.target.value);}} />
                     </div>
                         <div className='alertpasswords1'>{passwordError && <div style={{color: 'red'}}>{passwordError}</div>}</div>
 
                     <br></br>
 
                     <div class="input-container">
-            |             <input class="input-field7" type={passwordShown ? "text" : "password" } placeholder="Confirm Password" value={field2} onChange={handleSubmit} onChange={e=>{setField2(e.target.value);}} />
+                         <input class="input-field7" type={passwordShown ? "text" : "password" } placeholder="Confirm Password" value={field2} onChange={handleSubmit} onChange={e=>{setField2(e.target.value);}} />
                     </div>
                         <div className='alertpasswords2'>{passwordError1 && <div style={{color: 'red'}}>{passwordError1}</div>}</div>
 

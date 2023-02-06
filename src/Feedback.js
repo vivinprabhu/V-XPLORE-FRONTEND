@@ -67,7 +67,7 @@ function Feedback(){
     return(
         <>
             <div class="background5">
-                <img src={feedbackimg} height="742px" width="1600px"/>
+                <img src={feedbackimg} height="710px" width="1600px"/>
             </div>
 
                 <div class="Back">
