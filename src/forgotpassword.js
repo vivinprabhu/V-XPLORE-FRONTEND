@@ -12,12 +12,13 @@ function Forgotpassword(){
     const togglePassword = () => {
     setPasswordShown(!passwordShown);}
 
+    const [nameError, setNameError] = useState('');
     const [field1, setField1] = useState('');
     const [field2, setField2] = useState('');
+    
     const [name, setName] = useState('');
    const [passwordError, setPasswordError] = useState('');
    const [passwordError1, setPasswordError1] = useState('');
-   const [nameError, setNameError] = useState('');
 
     const [Error, setError] = useState('');
 

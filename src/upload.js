@@ -6,6 +6,7 @@ import background4 from "./Upload.png";
 import {Link} from "react-router-dom";
 
 import { useState } from "react";
+import { color } from "@mui/system";
 
 function Upload() {
     
@@ -13,8 +14,24 @@ function Upload() {
     const [department, setDepartment] = useState("Select Department");
     const [documentType, setDocumentType] = useState("Select Department");
     const [file, setFile] = useState(null);
+    
+    const [fileContents, setFileContents] = useState("");
+  
+    const handleFileChange = (event) => {
+      const selectedFile = event.target.files[0];
+      setFile(selectedFile);
+  
+      const reader = new FileReader();
+      reader.onload = (event) => {
+        setFileContents(event.target.result);
+      };
+      reader.readAsText(selectedFile);
+    };
 
-    const handleSubmit = (event) => {
+
+
+    const handleSubmit = (event) => 
+    {
         event.preventDefault();
         let isValid = true;
     
@@ -38,7 +55,8 @@ function Upload() {
             isValid = false;
         }
     
-        if (isValid) {
+        if (isValid) 
+        {
             
         }
     }    
@@ -72,7 +90,7 @@ function Upload() {
                         value={department}
                         onChange={(event) => setDepartment(event.target.value)}
                     >
-                        <option value="Select Department"></option>
+                        <option value="Select Department">Select Department</option>
                         <option>ARTIFICAL INTELLIGENCE AND DATA SCIENCE</option>
                         <option>ARTIFICAL INTELLIGENCE AND MACHINE LEARING</option>
                         <option>CIVIL ENGINEERING</option>
@@ -92,7 +110,7 @@ function Upload() {
                     value={documentType}
                     onChange={(event) => setDocumentType(event.target.value)}
                 >
-                    <option value="Select Department"></option>
+                    <option value="Select Department">Document Type</option>
                     <option>SUBJECT NOTES</option>
                     <option>VIDEO LECTURES</option>
                     <option>REFERENCE BOOKS</option>
@@ -100,13 +118,21 @@ function Upload() {
                 </select>
             </div>
 
-            <div class='input3'>
-                <input 
-                    class="input-field6" 
-                    type="file" 
-                    placeholder='Upload Files' 
-                    onChange={(event) => setFile(event.target.files[0])}
-                />
+
+            <div className="input3">
+                <input className="input-field6" type="file" placeholder="Upload Files" onChange={handleFileChange}/>
+
+                {file && (
+                    <div class="ufile">
+                    <p style={{ marginTop: "10px",color: "red" , fontSize:"15px"}}>
+                        Choosen file: {file.name}
+                    </p>
+
+                        <div class="delete-file-btn" type='submit' onClick={() => setFile(null)}> Delete </div>
+                    </div>
+                )
+                }
+
             </div>
 
             <div> <input class='btn8' type='submit' value='Upload'  onClick={handleSubmit} /></div>
