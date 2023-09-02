@@ -29,7 +29,7 @@ export default function RouteApp() {
   return (
     <Router>
       <Routes>
-        <Route path="/V-XPLORE-FRONTEND" element={<Firstpage />} />
+        <Route path="/" element={<Firstpage />} />
         <Route path="/login" element={<Login />} />
         <Route path="/forgotpassword" element={<Forgotpassword />} />
         <Route path="/signup" element={<Signup />} />
