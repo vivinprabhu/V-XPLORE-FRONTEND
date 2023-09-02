@@ -1,6 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import ReactDOM from 'react-dom/client';
 
 import Login from "./login";
 import Firstpage from "./firstpage";
@@ -25,40 +24,42 @@ import Csemathq from "./csemathq";
 import Csejavaq from "./csejavaq";
 import Csewebq from "./csewebq";
 
-export default function RouteApp() {
-  return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Firstpage />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/forgotpassword" element={<Forgotpassword />} />
-        <Route path="/signup" element={<Signup />} />
-        <Route path="/Home" element={<Home />} />
-        <Route path="/Upload" element={<Upload />} />
-        <Route path="/Feedback" element={<Feedback />} />
-        <Route path="/Tempnote" element={<Tempnote />} />
-        <Route path="/Four" element={<Four />} />
-        <Route path="/Nofile" element={<Nofile />} />
-        <Route path="/about" element={<About />} />
+import{BrowserRouter as Router,Routes,Route} from "react-router-dom";
 
-        <Route path="/CseFour" element={<CseFour />} />
+export default function RouteApp(){
+    return(
+        <Router>
+            <Routes>
+                <Route path="/" element={<Firstpage/>}></Route>
+                <Route path="/login" element={<Login/>}></Route>
+                <Route path="/forgotpassword" element={<Forgotpassword/>}></Route>
+                <Route path="/signup" element={<Signup/>}></Route>
+                <Route path="/Home" element={<Home/>}></Route>
+                <Route path="/Upload" element={<Upload/>}></Route>
+                <Route path="/Feedback" element={<Feedback/>}></Route>
+                <Route path="/Tempnote" element={<Tempnote/>}></Route>
+                <Route path="/Four" element={<Four/>}></Route>
+                <Route path="/Nofile" element={<Nofile/>}></Route>
+                <Route path="/about" element={<About/>}></Route>
 
-        <Route path="/Csesn" element={<Csesn />} />
-        <Route path="/Csevl" element={<Csevl />} />
-        <Route path="/Cserefbook" element={<Cserefbook />} />
-        <Route path="/Cseqp" element={<Cseqp />} />
+                <Route path="/CseFour" element={<CseFour/>}></Route>
 
-        <Route path="/Csemathq" element={<Csemathq />} />
-        <Route path="/Csejavaq" element={<Csejavaq />} />
-        <Route path="/Csewebq" element={<Csewebq />} />
+                <Route path="/Csesn" element={<Csesn/>}></Route>
+                <Route path="/Csevl" element={<Csevl/>}></Route>
+                <Route path="/Cserefbook" element={<Cserefbook/>}></Route>
+                <Route path="/Cseqp" element={<Cseqp/>}></Route>
 
-        <Route path="/Csemath" element={<Csemath />} />
-        <Route path="/Csejava" element={<Csejava />} />
-        <Route path="/Cseweb" element={<Cseweb />} />
-      </Routes>
-    </Router>
-  );
+                <Route path="/Csemathq" element={<Csemathq/>}></Route>
+                <Route path="/Csejavaq" element={<Csejavaq/>}></Route>
+                <Route path="/Csewebq" element={<Csewebq/>}></Route>
+
+                <Route path="/Csemath" element={<Csemath/>}></Route>
+                <Route path="/Csejava" element={<Csejava/>}></Route>
+                <Route path="/Cseweb" element={<Cseweb/>}></Route>
+            </Routes>
+        </Router>
+    )
 }
 
-const root = document.getElementById('root');
-ReactDOM.createRoot(root).render(<RouteApp />);
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<RouteApp/>);
